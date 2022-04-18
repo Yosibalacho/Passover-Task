@@ -23,6 +23,19 @@
   width: 15vw;
   border: 2px solid black;
   grid-area: sidebar;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+#search {
+  background-image: url(images/search.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(247, 240, 240);
+  border: unset;
+  width: 9vw;
 }
 #main-div {
   display: flex;
@@ -39,6 +52,9 @@
 
 #footer-div {
   display: flex;
+  justify-content: flex-end;
+  font-size: larger;
+  font-weight: bolder;
   height: 15vh;
   border: 2px solid black;
   grid-area: footer;
