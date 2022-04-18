@@ -1,0 +1,45 @@
+#parent-div {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "sidebar main main  main right-bar"
+    "sidebar main main main right-bar"
+    "sidebar main main main right-bar"
+    "footer footer footer footer footer";
+}
+#header-div {
+  display: flex;
+  height: 15vh;
+  grid-area: header;
+  justify-content: space-evenly;
+}
+/* #face-logo{
+    
+} */
+
+#sidebar-div {
+  display: flex;
+  height: 63.5vh;
+  width: 15vw;
+  border: 2px solid black;
+  grid-area: sidebar;
+}
+#main-div {
+  display: flex;
+  width: 70vw;
+  border: 2px solid black;
+  grid-area: main;
+}
+#right_bar-div {
+  display: flex;
+  width: 13.5vw;
+  border: 2px solid black;
+  grid-area: right-bar;
+}
+
+#footer-div {
+  display: flex;
+  height: 15vh;
+  border: 2px solid black;
+  grid-area: footer;
+}
