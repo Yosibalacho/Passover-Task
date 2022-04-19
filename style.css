@@ -30,12 +30,16 @@ body {
   font-weight: 800;
   font-size: x-large;
 }
-
+/* id of the main div */
 #main-div {
   display: flex;
+  flex-direction: column; 
   width: 70vw;
   border: 2px solid black;
   grid-area: main;
+}
+#personal-info {
+  
 }
 /*  id of the right_bar div  */
 #right_bar-div {
