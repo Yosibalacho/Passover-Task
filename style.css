@@ -1,3 +1,4 @@
+/*  id of the parent div  */
 #parent-div {
   display: grid;
   grid-template-areas:
@@ -7,16 +8,14 @@
     "sidebar main main main right-bar"
     "footer footer footer footer footer";
 }
+/*  id of the header div  */
 #header-div {
   display: flex;
   height: 15vh;
   grid-area: header;
   justify-content: space-evenly;
 }
-/* #face-logo{
-    
-} */
-
+/*  id of the sidebar div  */
 #sidebar-div {
   display: flex;
   height: 63.5vh;
@@ -27,7 +26,7 @@
   font-weight: bolder;
   font-size: medium;
 }
-
+/*  id of the search input  */
 #search {
   background-image: url(images/search.png);
   background-position: center;
@@ -37,19 +36,21 @@
   border: unset;
   width: 9vw;
 }
+/*  id of the main div  */
 #main-div {
   display: flex;
   width: 70vw;
   border: 2px solid black;
   grid-area: main;
 }
+/*  id of the right_bar div  */
 #right_bar-div {
   display: flex;
   width: 13.5vw;
   border: 2px solid black;
   grid-area: right-bar;
 }
-
+/*  id of the footer div  */
 #footer-div {
   display: flex;
   justify-content: flex-end;
