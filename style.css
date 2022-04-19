@@ -42,9 +42,10 @@ body {
   display: flex;
 }
 /* id of the yosi-pic */
-#yosi-pic { width: 30vw;
-  background-image: url('images/yosi.png');
-   background-size: cover;
+#yosi-pic {
+  width: 30vw;
+  background-image: url("images/yosi.png");
+  background-size: cover;
 }
 /*  id of the right_bar div  */
 #right_bar-div {
