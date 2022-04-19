@@ -10,6 +10,8 @@ body {
     "sidebar main main main right-bar"
     "sidebar main main main right-bar"
     "footer footer footer footer footer";
+  height: 100vh;
+  width: 100vw;
 }
 /*  id of the header div  */
 #header-div {
@@ -33,13 +35,16 @@ body {
 /* id of the main div */
 #main-div {
   display: flex;
-  flex-direction: column; 
-  width: 70vw;
-  border: 2px solid black;
   grid-area: main;
 }
+/* id of the personal-info */
 #personal-info {
-  
+  display: flex;
+}
+/* id of the yosi-pic */
+#yosi-pic { width: 30vw;
+  background-image: url('images/yosi.png');
+   background-size: cover;
 }
 /*  id of the right_bar div  */
 #right_bar-div {
