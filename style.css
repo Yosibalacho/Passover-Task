@@ -1,58 +1,182 @@
 body {
-  background: linear-gradient(#0000, #686868, #000000);
+  font-family: cursive;
+  background: linear-gradient(#0000, #686868, #ffffff);
 }
 /*  id of the parent div  */
 #parent-div {
+  border: 2px solid black;
   display: grid;
   grid-template-areas:
     "header header header header header"
-    "sidebar main main  main right-bar"
-    "sidebar main main main right-bar"
+    "sidebar main main  main right-bar "
+    "sidebar main main main right-bar "
     "sidebar main main main right-bar"
     "footer footer footer footer footer";
-  height: 100vh;
-  width: 100vw;
 }
 /*  id of the header div  */
 #header-div {
   display: flex;
-  height: 15vh;
+  justify-content: space-between;
   grid-area: header;
-  justify-content: space-evenly;
+  height: 20vh;
+  width: 100vw;
+}
+/* id of the face-div */
+#face-div {
+  background-image: url(images/facebook.png);
+  height: 15vh;
+  width: 30vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the github-div */
+#github-div {
+  background-image: url(images/GitHub-Logo.png);
+  height: 15vh;
+  width: 30vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the linkedin-div */
+#linkdin-div {
+  background-image: url(images/linkdin.png);
+  height: 15vh;
+  width: 30vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the instegram-div */
+#instegram-div {
+  background-image: url(images/instegram.png);
+  height: 15vh;
+  width: 30vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the twitter-div */
+#twitter-div {
+  background-image: url(images/twitter.png);
+  height: 15vh;
+  width: 30vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /*  id of the sidebar div  */
 #sidebar-div {
   display: flex;
-  height: 63.5vh;
-  width: 15vw;
   grid-area: sidebar;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   font-weight: 800;
   font-size: x-large;
+  width: 20vw;
 }
 /* id of the main div */
 #main-div {
+  border: 2px solid black;
+  width: 50vw;
   display: flex;
   grid-area: main;
 }
 /* id of the personal-info */
 #personal-info {
   display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+/* id of the content */
+#content {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  font-weight: bold;
+}
+/* id of work */
+#work{
+      background-image: url(images/work.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 15%;
+      height: 15vh;
+      border: 2px solid black;
+      align-self: center;
+
 }
 /* id of the yosi-pic */
 #yosi-pic {
+  display: flex;
+  height: 40vh;
   width: 30vw;
-  background-image: url("images/yosi.png");
-  background-size: cover;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(images/יוסי.png);
 }
-/*  id of the right_bar div  */
+/* id of the headline */
+#headline {
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* id of the span */
+#span {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* id of the github-profile */
+#github-profile {
+  display: flex;
+  background-image: url(images/github-profile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  border: 2px solid black;
+  width: 53%;
+}
+/* id of the piano */
+#piano {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/piano.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+}
+/* id of the ynet */
+#ynet {
+  display: flex;
+  background-image: url(images/ynet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 53%;
+}
+/* id of the right_bar-div */
 #right_bar-div {
   display: flex;
-  width: 13.5vw;
-  border: 2px solid black;
+
+  flex-wrap: wrap;
   grid-area: right-bar;
+  width: 30vw;
+  border: 2px solid black;
+  font-size: small;
+  font-weight: bolder;
 }
 /*  id of the footer div  */
 #footer-div {
@@ -60,7 +184,5 @@ body {
   justify-content: flex-end;
   font-size: larger;
   font-weight: bolder;
-  height: 15vh;
-  border: 2px solid black;
   grid-area: footer;
 }
