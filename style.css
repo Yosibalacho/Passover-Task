@@ -88,7 +88,7 @@ body {
 }
 /* id of the main div */
 #main-div {
-  width: 50vw;
+  width: 100%;
   display: flex;
   grid-area: main;
 }
@@ -96,7 +96,7 @@ body {
 #personal-info {
   display: flex;
   flex-direction: column;
-  width: 70vw;
+  width: 60vw;
 }
 /* id of the content */
 #content {
@@ -117,7 +117,6 @@ body {
   background-size: contain;
   width: 13%;
   height: 15vh;
-
   align-self: center;
 }
 /* id of army */
@@ -142,7 +141,7 @@ body {
 #yosi-pic { 
   display: flex;
   height: 40vh;
-  width: 30vw;
+  width: 40%;
   align-self: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,8 +168,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   grid-area: right-bar;
-  width: 30vw;
-
+  width: 25vw;
   font-size: small;
   font-weight: bolder;
 }
@@ -185,7 +183,6 @@ body {
 /* id of the piano */
 #piano {
   background: linear-gradient(rgb(0, 0, 0), #5e5d5d50, #9c9c9cb4);
-
   display: flex;
   justify-content: center;
   background-image: url(images/piano.png);
@@ -205,13 +202,24 @@ body {
 }
 /*  id of the footer div  */
 #footer-div {
-  border: 2px solid black;
-  height: 20vh;
+  height: 25vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  
+  align-items: center;
   font-size: larger;
   font-weight: bolder;
   grid-area: footer;
+}
+/* id of the email */
+#email{ color: black;
+  display: inherit;
+
+}
+/* id of the contact */
+#contact{
+  color: black;
+
 }
 /*  id of the gallery div  */
 #gallery {
