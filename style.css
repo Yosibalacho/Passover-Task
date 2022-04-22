@@ -73,7 +73,6 @@ body {
 }
 /*  id of the sidebar div  */
 #sidebar-div {
-  color: rgb(214, 214, 214);
   background: linear-gradient(rgb(0, 0, 0), #5e5d5d50, #9c9c9cb4);
   border-radius: 50%;
   display: flex;
@@ -140,7 +139,7 @@ body {
   align-self: center;
 }
 /* id of the yosi-pic */
-#yosi-pic {
+#yosi-pic { 
   display: flex;
   height: 40vh;
   width: 30vw;
