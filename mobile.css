@@ -1,0 +1,269 @@
+body {
+  font-family: cursive;
+  background: linear-gradient(#0000, #686868, #f1eeee);
+}
+/*  id of the parent div  */
+#parent-div {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "sidebar main main  main right-bar "
+    "sidebar main main main right-bar "
+    "sidebar main main main right-bar"
+    "footer footer footer footer footer"
+    "gallery gallery gallery gallery gallery";
+}
+/*  id of the header div  */
+#header-div {
+  display: flex;
+  justify-content: space-between;
+  grid-area: header;
+  height: 30vh;
+  width: 100vw;
+}
+/* id of the face-div */
+#face-div {
+  background-image: url(images/facebook.png);
+  height: 15vh;
+  width: 20vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the github-div */
+#github-div {
+  background-image: url(images/GitHub-Logo.png);
+  height: 15vh;
+  width: 20vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the linkedin-div */
+#linkdin-div {
+  background-image: url(images/linkdin.png);
+  height: 15vh;
+  width: 20vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the instegram-div */
+#instegram-div {
+  background-image: url(images/instegram.png);
+  height: 15vh;
+  width: 20vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* id of the twitter-div */
+#twitter-div {
+  background-image: url(images/twitter.png);
+  height: 15vh;
+  width: 20vw;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*  id of the sidebar div  */
+#sidebar-div {
+  background: linear-gradient(rgb(0, 0, 0), #5e5d5d50, #9c9c9cb4);
+  border-radius: 50%;
+  display: flex;
+  /* position: fixed; */
+  grid-area: sidebar;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 800;
+  font-size: x-large;
+  width: 15vw;
+  height: 70vh;
+}
+/* id of the main div */
+#main-div {
+  width: 100%;
+  display: flex;
+  grid-area: main;
+}
+/* id of the personal-info */
+#personal-info {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+/* id of the content */
+#content {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  font-weight: bold;
+}
+/* id of headliners */
+.headliners {
+  font-size: x-large;
+  font-weight: bolder;
+}
+/* id of work */
+#work {
+  background-image: url(images/work.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13%;
+  height: 15vh;
+  align-self: center;
+}
+/* id of army */
+#army {
+  background-image: url(images/army.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15vh;
+  width: 13%;
+  align-self: center;
+}
+/* id of education */
+#education {
+  background-image: url(images/education.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15vh;
+  width: 13%;
+  align-self: center;
+}
+/* id of the yosi-pic */
+#yosi-pic {
+  display: flex;
+  height: 40vh;
+  width: 40%;
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(images/יוסי.png);
+}
+/* id of the headline */
+#headline {
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* id of the span */
+#span {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* id of the right_bar-div */
+#right_bar-div {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: right-bar;
+  width: 25vw;
+  font-size: small;
+  font-weight: bolder;
+}
+/* id of the github-profile */
+#github-profile {
+  display: flex;
+  background-image: url(images/github-profile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 79%;
+}
+/* id of the piano */
+#piano {
+  background: linear-gradient(rgb(0, 0, 0), #5e5d5d50, #9c9c9cb4);
+  display: flex;
+  justify-content: center;
+  background-image: url(images/piano.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+/* id of the ynet */
+#ynet {
+  background: linear-gradient(rgb(0, 0, 0), #5e5d5d50, #9c9c9cb4);
+
+  display: flex;
+  background-image: url(images/ynet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 79%;
+}
+/*  id of the footer div  */
+#footer-div {
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  font-size: larger;
+  font-weight: bolder;
+  grid-area: footer;
+}
+/* id of the email */
+#email {
+  color: black;
+}
+/* id of the contact */
+#contact {
+  color: black;
+}
+/*  id of the gallery div  */
+#gallery {
+  display: flex;
+  border: 2px solid black;
+  grid-area: gallery;
+  height: 40vh;
+}
+/*  id of first-pic  */
+#first-pic {
+  background-image: url(images/first-pic.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+  height: 40vh;
+  width: 25vw;
+}
+/*  id of second-pic  */
+#second-pic {
+  background-image: url(images/second-pic.png);
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  height: 40vh;
+  width: 25vw;
+}
+/*  id of third-pic  */
+#third-pic {
+  background-image: url(images/third-pic.png);
+  background-size: contain;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  height: 40vh;
+  width: 25vw;
+}
+/*  id of fourth-pic  */
+#fourth-pic {
+  background-image: url(images/fourth-pic.png);
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  height: 40vh;
+  width: 25vw;
+}
