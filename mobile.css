@@ -200,7 +200,6 @@ body {
   width: 13%;
   align-self: center;
 }
-
 /* id of the right_bar-div */
 #right_bar-div {
   display: flex;
@@ -212,7 +211,7 @@ body {
   justify-content: space-evenly;
 }
 .buttons {
- font-size: large;
+  font-size: large;
   text-decoration: none;
   color: rgb(49, 39, 39);
 }
@@ -273,7 +272,6 @@ body {
   grid-area: gallery;
   height: 30vh;
   border: 2px solid black;
- 
 }
 /* animation of the first-pic */
 @keyframes first {
