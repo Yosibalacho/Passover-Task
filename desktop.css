@@ -209,9 +209,12 @@ body {
   font-size: small;
   font-weight: bolder;
 }
-.buttons{
+.buttons {
+  display: flex;
+  align-items: center;
+  font-size: medium;
   text-decoration: none;
-  color: black;
+  color: rgb(49, 39, 39);
 }
 /* id of the github-profile */
 #github-profile {
@@ -220,8 +223,7 @@ body {
   background-image: url(images/github-profile.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 70%;
-  
+  width: 80%;
 }
 /* id of the piano */
 #piano {
@@ -241,7 +243,7 @@ body {
   background-image: url(images/ynet.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 87%;
+  width: 80%;
 }
 /*  id of the footer div  */
 #footer-div {
